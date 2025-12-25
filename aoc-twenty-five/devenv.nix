@@ -5,5 +5,5 @@
   packages = [ pkgs.git ];
 
   languages.haskell.enable = true;
-  languages.haskell.stack.enable = true;
+  languages.haskell.cabal.enable = true;
 }
