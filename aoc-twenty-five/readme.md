@@ -5,7 +5,7 @@ https://adventofcode.com/
 Doing each day in a different language
 
 - [x] Day 1: Haskell
-- [ ] Day 2: OCaml
+- [x] Day 2: OCaml
 - [ ] Day 3: Nim
 - [ ] Day 4: Crystal
 - [ ] Day 5: Scala
@@ -19,7 +19,7 @@ Doing each day in a different language
 
 Languages to maybe switch out with
 - https://vale.dev/
-- https://hylo-lang.org/
+- https://hylo-lang.org/ (research language... maybe not?)
 - https://raku.org/
 - https://www.ponylang.io/
 - https://www.unison-lang.org/
@@ -59,4 +59,9 @@ Neutral:
 
 Cons:
 - Single pass compiler so there's an order to declarations (not the worst thing)
-- C-style printf
+- C-style printf (kind of annoying to print out lists. Probably a way to deal with this that I just don't know about)
+
+# Nim
+
+Cons:
+- `nimble` segfaults in devenv for some reason

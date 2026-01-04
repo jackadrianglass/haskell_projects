@@ -23,7 +23,7 @@ let () =
     let contents = In_channel.input_all ic in
     let instructions = parse_instructions contents in
     let invalid_ones = instructions
-        |> List.map (fun r -> Day2.invalid_ids_in_range r.start r.finish)
+        |> List.map (fun r -> Day2.invalid_ids_in_range_2 r.start r.finish)
         |> List.flatten
     in
     let sum = invalid_ones |> List.fold_left (fun acc v -> acc + v) 0 in
