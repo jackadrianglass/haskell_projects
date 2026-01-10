@@ -1,12 +1,10 @@
-# AoC 2025
-
 https://adventofcode.com/
 
 Doing each day in a different language
 
 - [x] Day 1: Haskell
 - [x] Day 2: OCaml
-- [ ] Day 3: Nim
+- [x] Day 3: Nim
 - [ ] Day 4: Crystal
 - [ ] Day 5: Scala
 - [ ] Day 6: Clojure
@@ -47,7 +45,7 @@ Cons:
 
 # OCaml
 
-Fun and pretty easy to get going
+Fun and pretty easy to get going. Much easier than Haskell just to get going. May try to make a project on this one to get used to thinking in functional terms and then move to Haskell.
 
 Pros:
 - Somewhat easier to understand than Haskell (despite being very similar. Probably fewer special symbols used)
@@ -63,5 +61,21 @@ Cons:
 
 # Nim
 
+Also fun and easy to get going. Would be interested to try to make a project with it
+
+Pros:
+- Familiar enough that it's easy to get started
+- Can do functional style computation even if it looks like the docs are geared towards OOP folks
+- Test syntax is nice
+- Feels like a scripting language. Haven't tried type inference though
+
 Cons:
 - `nimble` segfaults in devenv for some reason
+- Compiler errors for macros look pretty terrible
+- Compiler errors generally are kind of a miss. Probably would be fine once gotten used to
+- Documentation isn't as nice as Haskell or OCaml
+
+# Crystal
+
+Cons:
+- No official treesitter grammar (though an unofficial one exists [here](https://github.com/crystal-lang-tools/tree-sitter-crystal))
